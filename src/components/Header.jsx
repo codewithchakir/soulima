@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Menu from './Menu'
+import Image from 'next/image';
+import Menu from './Menu';
 
 import {AiFillHome} from 'react-icons/ai';
 import {BsFillInfoCircleFill} from 'react-icons/bs';
