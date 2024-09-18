@@ -1,8 +1,10 @@
-import Header from "@/components/Header";
 import localFont from "next/font/local";
 import Head from "next/head";
 import "./globals.css";
 import Providers from "./Providers";
+
+import Header from "@/components/Header";
+import NavBar from "@/components/NavBar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -29,6 +31,7 @@ export default function RootLayout({ children }) {
         {/* attribute="class" */}
         <Providers defaultTheme="system" >
         <Header />
+        <NavBar />
         {children}
         </Providers>
       </body>
