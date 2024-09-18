@@ -17,7 +17,7 @@ export default function AboutUs() {
                 We created Soulima to help movie lovers find, track, and explore the world of films effortlessly. Discover new releases, browse through classics, and keep up with your favorite genres. From personalized watchlists to trending films, Soulima brings it all together for you in one place.
               </p>
             </div>
-            <button className="w-full sm:w-fit px-3.5 py-2 bg-red-500 hover:bg-white text-white hover:text-red-500 text-sm font-medium rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700">
+            <button className="w-full sm:w-fit px-3.5 py-2 bg-red-500 hover:bg-gray-600 text-white text-sm font-medium rounded-lg transition-all duration-300">
               Start Exploring
             </button>
           </div>
